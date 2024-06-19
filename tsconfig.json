@@ -6,6 +6,7 @@
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "moduleResolution": "Node",
+    "noImplicitOverride": true,
     "outDir": "dist",
     "paths": { "*": ["node_modules/*"] },
     "skipLibCheck": true,
