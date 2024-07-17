@@ -1,7 +1,5 @@
-import { mergeSort } from './lib/algorithms';
-import { logMeasuredExecution } from './lib/benchmark';
+const greet = (name: string): string => {
+  return `Hello, ${name}!!!`;
+};
 
-console.log('Hello, TypeScript Boilerplate!\n');
-
-const unsortedArray = [38, 27, 43, 3, 9, 82, 10];
-logMeasuredExecution(mergeSort, unsortedArray);
+console.log(greet('World'));
